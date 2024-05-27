@@ -3,7 +3,7 @@ import { FaChartLine, FaGlobe, FaHome, FaRegNewspaper, FaComments } from "react-
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={0}>
+    <Container maxW="container.xl" p={0} bg="#F3F2EF"> {/* Updated background color */}
       {/* Navigation Bar */}
       <Flex as="nav" bg="gray.800" color="white" p={4} justifyContent="space-between" alignItems="center">
         <HStack spacing={8}>
@@ -19,7 +19,7 @@ const Index = () => {
       </Flex>
 
       {/* Main Content Area */}
-      <Flex direction={{ base: "column", md: "row" }} mt={4}>
+      <Flex direction={{ base: "column", md: "row" }} mt={4} bg="#F3F2EF"> {/* Updated background color */}
         {/* Latest News Articles */}
         <Box flex="3" p={4}>
           <Heading as="h2" size="lg" mb={4}>Latest News</Heading>
